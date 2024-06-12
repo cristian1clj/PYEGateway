@@ -67,8 +67,8 @@ server.listen().then(({ url }) => {
     console.log('Servidor listo en', url);
 });
 
-const URLUsersAPI = 'http://localhost:5000/api/users'
-const URLSetsAPI = 'http://localhost:5001/api/vocabularySets'
+const URLUsersAPI = 'https://nine6510058a5e1-2.onrender.com/api/users'
+const URLSetsAPI = 'https://fc68978efe5e-1.onrender.com/api/vocabularySets'
 const URLWordsAPI = 'https://api.dictionaryapi.dev/api/v2/entries/en'
 
 async function fetchUsers() {
